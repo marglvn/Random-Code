@@ -58,9 +58,9 @@ class Lease
 
 
 
-    public void addPetFee()
+    public void addPetFee(double getRent)
     {
-            //getRent() = getRent() + FEE;
+            double x = rent + FEE; // Learn to throw a method into another method that requires it to be used to do math
     }
 
     public static void explainPetPolicy()

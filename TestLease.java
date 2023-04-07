@@ -6,16 +6,16 @@ class TestLease
 
    public static void main (String args[])
    {
-      Lease tenant1 = new Lease();
-      Lease tenant2 = new Lease();
-      Lease tenant3 = new Lease();
-      Lease tenant4 = new Lease();
+     	Lease tenant1 = new Lease();
+     	Lease tenant2 = new Lease();
+     	Lease tenant3 = new Lease();
+     	Lease tenant4 = new Lease();
 
-      getData(tenant1);
-      /* tenant2.getData();
-      tenant3.getData(); */
+     	getData(tenant1);
+     	/* tenant2.getData();
+     	tenant3.getData(); */
 	
-	   showValues(tenant1);
+	showValues(tenant1);
    }
    public static void showValues(Lease ls)
    {
