@@ -19,7 +19,7 @@ public class StringSort2						// Programming Exercise 9-1B
         int quantity = 0;
         int arrayLength = ballOfYarn.length;
         
-        Arrays.fill(ballOfYarn,  "zzzzzzz");											//	Fills the array with dummy values
+        Arrays.fill(ballOfYarn,  "zzzzzzz");						//	Fills the array with dummy values
         
         Scanner input = new Scanner(System.in);
         
