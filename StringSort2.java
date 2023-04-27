@@ -13,11 +13,11 @@ public class StringSort2						// Programming Exercise 9-1B
 {
     public static void main(String[] args)
     {
-        String[] ballOfYarn = new String[14];
+        String[] ballOfYarn = new String[15];
         //final String QUIT = "zzz";
         int count = 0;
         int quantity = 0;
-        int arrayLength = ballOfYarn.length;
+        int arrayLength = ballOfYarn.length - 1;
         
         Arrays.fill(ballOfYarn,  "zzzzzzz");						//	Fills the array with dummy values
         
@@ -27,7 +27,7 @@ public class StringSort2						// Programming Exercise 9-1B
         ballOfYarn[count] = input.nextLine();
         
         //count = 1;
-        while(!ballOfYarn[count].equals("zzz") && count < arrayLength)					//	Having trouble canceling out of the loop
+        while(!ballOfYarn[count].contains("zzz") && count < arrayLength)					//	Having trouble canceling out of the loop
         {
         	System.out.println("Enter statements: ");
         	ballOfYarn[count] = input.nextLine();
